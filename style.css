@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #0b1120;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
+nav {
+  position: sticky;
+  top: 0;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+  z-index: 10;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cbd5f5;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #020617, #0b1120);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #38bdf8;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  color: #94a3b8;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.hero-links a {
+  margin: 0.5rem;
+  display: inline-block;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* SECTIONS */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #38bdf8;
+  padding-left: 0.75rem;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.skills-grid span {
+  background: #020617;
+  padding: 0.75rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #1e293b;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-card a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.tools {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+/* TIMELINE */
+.timeline {
+  border-left: 2px solid #1e293b;
+  padding-left: 1.5rem;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+}
+
+.timeline-item span {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* CONTACT */
+.contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #64748b;
+}
