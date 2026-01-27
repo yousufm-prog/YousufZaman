@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif; /* Use this so there are no font issues, non-macs won't have the apple fonts */
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 nav {
   position: sticky;
   top: 0;
-  background: #020617;
+  background: #020619; /* You usually want the header to be slightly darker */
   border-bottom: 1px solid #1e293b;
   z-index: 10;
 }
